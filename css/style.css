@@ -1,0 +1,138 @@
+
+.section-text{
+    display: block;
+    margin: auto;
+    
+}
+.section-text h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.section-text span{
+    font-weight: 700;
+}
+.section-text p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.section-button{
+    border: none;
+    background-color: #F53838;
+    color: white;
+    padding: 12px 80px;
+    border-radius: 10px;
+    font-weight: 500;
+  
+}
+.section-button:hover{
+    transform:scale(1.10);
+    transition: transform .5s ease-in-out ;
+}
+ /* sirvice section  */
+.container-service{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+ .service{
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgb(179, 179, 179);
+    
+ }
+ .service-icon{
+     width: 50px;
+     height: 50px;
+     background-color: #fceaea;
+     border-radius: 50%;
+     display: flex;  
+     justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.service-2{
+    margin-left: 0px;
+}
+.service-3{
+    border:none;
+}
+.service-list li{
+    list-style: none;
+}
+.service-list li>i{
+    color: rgb(38, 158, 38);
+}
+/* cards styels  */
+.card img{
+    width: 199px;
+    height: 226px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-body h5{
+    text-align: center;
+}
+.card-body ul{
+ list-style: none;
+ line-height: 45px;
+}
+.footer-card{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul .fa-check{
+    color: rgb(87, 128, 26);
+    margin-right: 10px;
+}
+/* locationa part  */
+.map-location{
+    text-align: center;
+}
+.site{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.images img{
+    width: 200px;
+}
+/* site image responsive  */
+@media (max-width:1085px) {
+    
+    .site{
+        display: flex;
+        flex-direction: column;
+    }
+    .images img{
+        width: 300px;
+    }
+}
+@media (max-width:688px) {
+    .images img{
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .site{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:400px) {
+    .images img{
+        width:150px;
+        margin-bottom: 30px;
+    }
+    .site{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+    .site{
+        display: flex;
+        flex-direction: column;
+    }
+}
